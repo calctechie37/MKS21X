@@ -1,0 +1,6 @@
+show: show different objects
+checkout: 
+reset:
+diff:
+status: 
+log: show previous commits
