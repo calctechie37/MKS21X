@@ -1,6 +1,11 @@
+clone: copy the directory from Github to local
+add: add files to the staging area
+commit: take snapshots of files
+push: Upload the changes to Github
+pull: Download the changes from Github
 show: show different objects
-checkout: 
-reset:
+checkout: switch branches or restore working tree files 
+reset: reset current HEAD to the specified state
 diff: show the changes made
-status: show the working tree status
+status: show the working tree
 log: show previous commits
