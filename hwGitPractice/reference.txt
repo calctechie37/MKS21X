@@ -1,6 +1,6 @@
 show: show different objects
 checkout: 
 reset:
-diff:
-status: 
+diff: show the changes made
+status: show the working tree status
 log: show previous commits
