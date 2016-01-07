@@ -1,6 +1,22 @@
 import java.util.Arrays;
+import java.util.Random;
 
 public class Sorts{
+    
+    public static void fillRandom(int[] data){
+	Random random = new Random();
+	for(int i = 0; i < data.length; i++){
+	    int sign = (int)Math.round(Math.random()) * 2 - 1;
+	    data[i] = sign * random.nextInt(Integer.MAX_VALUE);
+	}
+    }
+
+    public static void swap(int[]data, int index, int endex){
+	int temp = data[index];
+	data[index] = data[endex];
+	data[endex] = temp;
+    }
+
     public static void selectionSort(int [] data){
 	for(int i = 0; i < data.length; i++){
 	    int target = data[i];
